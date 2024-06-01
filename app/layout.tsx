@@ -33,7 +33,7 @@ export default function RootLayout({
           <ToastProvider />
           <ModalProvider />
           <SignedOut>
-            <SignInButton />
+            {/* <SignInButton /> */}
           </SignedOut>
           <SignedIn>
             {/* <UserButton afterSignOutUrl="/" /> */}
